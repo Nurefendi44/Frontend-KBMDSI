@@ -1,0 +1,39 @@
+/* styles.css */
+
+.flip-clock {
+    --fcc-flip-duration: 0.5s; /* transition duration when flip card */
+    --fcc-digit-block-width: 60px; /* width of digit card */
+    --fcc-digit-block-height: 90px; /* height of digit card, highly recommend in even number */
+    --fcc-digit-font-size: 60px; /* font size of digit */
+    --fcc-digit-color: white; /* color of digit */
+    --fcc-label-font-size: 10px; /* font size of label */
+    --fcc-label-color: #2B6BA8; /* color of label */
+    --fcc-background: #6BA82B; /* background of digit card */
+    --fcc-divider-color: white; /* color of divider */
+    --fcc-divider-height: 1px; /* height of divider */
+    --fcc-separator-size: 6px; /* size of colon */
+    --fcc-separator-color: #2B6BA8; /* color of colon */
+  }
+
+  .flip-clock {
+    --fcc-flip-duration: 0.5s;
+    --fcc-digit-block-width: 60px;
+    --fcc-digit-block-height: 90px;
+    --fcc-digit-font-size: 60px;
+    --fcc-digit-color: white;
+    --fcc-label-font-size: 10px;
+    --fcc-label-color: #2B6BA8;
+    --fcc-background: #6BA82B;
+    --fcc-divider-color: white;
+    --fcc-divider-height: 1px;
+    --fcc-separator-size: 6px;
+    --fcc-separator-color: #2B6BA8;
+
+    /* Properti untuk tampilan mobile */
+    @media (max-width: 767px) {
+        --fcc-digit-block-width: 30px;
+        --fcc-digit-block-height: 50px;
+        --fcc-digit-font-size: 30px;
+    }
+}
+
